@@ -11,28 +11,28 @@ body {
 
 @font-face {
   font-family: 'Helvetica Regular';
-  src: url('../fonts/helvetica/HelveticaNowText-Regular.woff') format('truetype');
+  src: url('../fonts/helvetica/HelveticaNowText-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica Bold';
-  src: url('../fonts/helvetica/HelveticaNowText-Bold.woff') format('truetype');
+  src: url('../fonts/helvetica/HelveticaNowText-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica Medium';
-  src: url('../fonts/helvetica/HelveticaNowText-Medium.woff') format('truetype');
+  src: url('../fonts/helvetica/HelveticaNowText-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica Black';
-  src: url('../fonts/helvetica/HelveticaNowText-Black.woff') format('truetype');
+  src: url('../fonts/helvetica/HelveticaNowText-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
