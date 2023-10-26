@@ -3,39 +3,54 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #fff;
+  background: #fafafa;
   justify-content: center;
   align-items: center;
-  font-family: 'Helvetica Regular';
+  font-family: 'Helvetica Bold';
 }
 
 @font-face {
-  font-family: 'Helvetica Regular';
-  src: url('../fonts/helvetica/HelveticaNowText-Regular.woff') format('woff');
+  font-family: 'Antarctica Book';
+  src: url('../fonts/antarctica/Anta-Book.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Helvetica Bold';
-  src: url('../fonts/helvetica/HelveticaNowText-Bold.woff') format('woff');
+  font-family: 'Antarctica Regular';
+  src: url('../fonts/antarctica/Anta-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antarctica Bold';
+  src: url('../fonts/antarctica/Anta-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Helvetica Medium';
-  src: url('../fonts/helvetica/HelveticaNowText-Medium.woff') format('woff');
+  font-family: 'Antarctica Medium';
+  src: url('../fonts/antarctica/Anta-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Helvetica Black';
-  src: url('../fonts/helvetica/HelveticaNowText-Black.woff') format('woff');
+  font-family: 'Antarctica Black';
+  src: url('../fonts/antarctica/Anta-Black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('../fonts/helvetica/Helvetica-Bold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 .card {
   position: relative;
@@ -61,7 +76,6 @@ body {
 
 .card:hover .face.face1 {
   transform: translateY(0);
-  filter: drop-shadow(0 0 10px #fff);
   cursor: pointer;
 }
 
@@ -77,13 +91,13 @@ body {
 
 .face.face1 .content i {
   font-size: 3em;
-  color: #000;
+  color: #050505;
   display: inline-block;
 }
 
 .face.face1 .content h3 {
   font-size: 1em;
-  color: #000;
+  color: #050505;
   text-align: center;
 }
 
@@ -117,7 +131,7 @@ a {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-  outline: 1px dashed #000;
+  outline: 1px dashed #050505;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
@@ -126,13 +140,12 @@ a {
 a:hover {
   background: #000000;
   color: #333333;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .text-true {
-  font-family: 'Helvetica Bold';
+  font-family: 'Antarctica Bold';
   font-size: 24px;
-  color: #000;
+  color: #050505;
   line-height: 1.2;
   text-align: center;
   width: 100%;
@@ -157,6 +170,5 @@ a:hover {
 
 .flooter:hover {
   font-family: 'Helvetica Bold';
-  color: #000;
-  filter: drop-shadow(0 0 10px #fff);
+  color: #050505;
 }
