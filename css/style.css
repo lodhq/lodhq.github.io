@@ -6,7 +6,7 @@ body {
   background: #fafafa;
   justify-content: center;
   align-items: center;
-  font-family: 'Helvetica Bold';
+  font-family: 'Antarctica Medium';
 }
 
 @font-face {
@@ -169,6 +169,6 @@ a:hover {
 }
 
 .flooter:hover {
-  font-family: 'Helvetica Bold';
+  font-family: 'Antarctica Medium';
   color: #050505;
 }
