@@ -6,51 +6,22 @@ body {
   background: #fafafa;
   justify-content: center;
   align-items: center;
-  font-family: 'Antarctica Medium';
+  font-family: 'Neue Haas Grotesk Text Pro 65 Medium';
 }
 
 @font-face {
-  font-family: 'Antarctica Book';
-  src: url('../fonts/antarctica/Anta-Book.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Antarctica Regular';
-  src: url('../fonts/antarctica/Anta-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Antarctica Bold';
-  src: url('../fonts/antarctica/Anta-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Antarctica Medium';
-  src: url('../fonts/antarctica/Anta-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Antarctica Black';
-  src: url('../fonts/antarctica/Anta-Black.woff2') format('woff2');
+  font-family: 'Neue Haas Grotesk Text Pro 65 Medium';
+  src: url('../fonts/neue-haas-grotesk-text-pro-65-medium.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Helvetica Bold';
-  src: url('../fonts/helvetica/Helvetica-Bold.woff') format('woff');
+  font-family: 'Neue Haas Display Bold';
+  src: url('../fonts/NeueHaasDisplayBold.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
 }
-
 
 .card {
   position: relative;
@@ -143,7 +114,7 @@ a:hover {
 }
 
 .text-true {
-  font-family: 'Antarctica Bold';
+  font-family: 'Neue Haas Display Bold';
   font-size: 24px;
   color: #050505;
   line-height: 1.2;
@@ -169,6 +140,6 @@ a:hover {
 }
 
 .flooter:hover {
-  font-family: 'Antarctica Medium';
+  font-family: 'Neue Haas Display Bold';
   color: #050505;
 }
