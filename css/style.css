@@ -23,6 +23,13 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Neue Haas Display Black';
+  src: url('../fonts/NeueHaasDisplayBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
 .card {
   position: relative;
   width: fit-content;
@@ -140,6 +147,6 @@ a:hover {
 }
 
 .flooter:hover {
-  font-family: 'Neue Haas Display Bold';
+  font-family: 'Neue Haas Display Black';
   color: #050505;
 }
