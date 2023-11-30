@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #fafafa;
+  background: #050505;
   justify-content: center;
   align-items: center;
   font-family: 'Neue Haas Grotesk Text Pro 65 Medium';
@@ -69,13 +69,13 @@ body {
 
 .face.face1 .content i {
   font-size: 3em;
-  color: #050505;
+  color: #fafafa;
   display: inline-block;
 }
 
 .face.face1 .content h3 {
   font-size: 1em;
-  color: #050505;
+  color: #fafafa;
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ a {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-  outline: 1px dashed #050505;
+  outline: 1px dashed #fafafa;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
@@ -123,7 +123,7 @@ a:hover {
 .text-true {
   font-family: 'Neue Haas Display Bold';
   font-size: 24px;
-  color: #050505;
+  color: #fafafa;
   line-height: 1.2;
   text-align: center;
   width: 100%;
